@@ -16,7 +16,7 @@
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html"><i class="material-icons left">search</i>Buscar</a></li>
+      	<li><a href="sass.html"><i class="material-icons left">search</i>Buscar</a></li>
       </ul>
     </div>
   </nav>
