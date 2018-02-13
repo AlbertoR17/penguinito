@@ -23,7 +23,7 @@
 	<!-- inico de contenido -->
 	<h1>hola</h1>
 	<!-- fin de contenido -->
-
+	<?php include("notas.php"); ?>
 </body>
 <!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
