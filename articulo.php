@@ -14,7 +14,7 @@
 <body>
  <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"></a>
+      <center><a href="#!" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a></center>
       <ul class="right hide-on-med-and-down">
         <li><a href="#"><i class="material-icons left">keyboard_return</i>Atrás</a></li>
         
@@ -23,18 +23,42 @@
   </nav>
 	<!-- inico de contenido -->
 	<center>
-	<h1>[Titulo]</h1>
+	<h3>[Titulo]</h3>
 	<h5>[Subtitulo]</h5>
 	</center>
 	<div class="container">
 		<div class="row">
-			<div class="col m2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit iusto ex nostrum, tenetur voluptates expedita, debitis consectetur minima a ullam omnis, asperiores suscipit magnam molestiae inventore cum! Cumque impedit, fuga.</div>
+			<div class="col m2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non culpa similique reiciendis, quaerat quo qui et, aut itaque placeat quasi amet, labore recusandae hic doloribus sunt quae dicta! Hic, officiis?</p>
+			</div>
 			<div class="col m8">
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim doloribus veniam voluptates voluptatibus, quos nam soluta nihil expedita reiciendis aliquam deserunt quas labore, asperiores assumenda. Atque ducimus veritatis, vitae assumenda.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi eaque maiores repellendus velit, voluptate accusamus similique cumque. Corporis eius, minima. Rem, ex minima quibusdam nemo ratione, facilis iste aliquid ut.</p>
+				<div>
+					<div style="background-color: #f2f2f2; width: 100%; height: 400px;"><img src="img/CODIGOFUENTE.png" alt="Imagen_del_articulo" style="width: 100%; height: 400px;"></div>
+					<div>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim doloribus veniam voluptates voluptatibus, quos nam soluta nihil expedita reiciendis aliquam deserunt quas labore, asperiores assumenda. Atque ducimus veritatis, vitae assumenda.</p>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim doloribus veniam voluptates voluptatibus, quos nam soluta nihil expedita reiciendis aliquam deserunt quas labore, asperiores assumenda. Atque ducimus veritatis, vitae assumenda.</p>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim doloribus veniam voluptates voluptatibus, quos nam soluta nihil expedita reiciendis aliquam deserunt quas labore, asperiores assumenda. Atque ducimus veritatis, vitae assumenda.</p>
+					<div>
+						<span><strong>Autor:</strong> [Dueño_del_post] </span><br>
+						<span><strong>Fuentes:</strong> [Fuentes] </span>
+					</div>
+					<!-- Empieza publicidad -->
+					<div>
+						
+					</div>
+					<!-- Termina publicidad -->
+					</div>
+				</div>
+				
 
 			</div>
-			<div class="col m2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nulla tenetur blanditiis dicta maiores ratione quis quas necessitatibus ad suscipit odit tempora laboriosam, et impedit? Quibusdam ut incidunt, itaque explicabo.</div>
+			<div class="col m2"> 
+				<h4>Articulos anteriores</h4>
+				<ul>
+					<li>[Titulo_Anterior]</li>
+					<li>[Titulo_Anterior]</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<!-- fin de contenido -->
