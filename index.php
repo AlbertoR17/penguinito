@@ -21,13 +21,34 @@
 					<ul class="right hide-on-med-and-down">
 						<li><a href="#"><i class="material-icons left">search</i>Buscar</a></li>
 				
-						<li><a href="#"><i class="material-icons left">add</i>Registrarse</a></li>
+						<li><a class="waves-effect waves-light modal-trigger" href="#modal1"><i class="material-icons left">add</i>Registrarse</a></li>
+						
 					</ul>
 				</div>
 			</nav>
 		</section>
 	</header>
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Registrarse</h4>
+				<form class="" action="#" method="post">
+					<label>Nombre</label>
+					<input type="text" name="name">
+                    <label>Contraseña</label>
+					<input type="password" name="pass">
+					<label>Confirma Contraseña</label>
+					<input type="password" name="pass2">
+					<label>Correo</label>
+					<input type="email" name="correo">
 
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Aceptar</a>
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+			</div>
+		</div>
 	<!-- inico de contenido -->
 	<section class="contenido wrapper">
 		<?php include("notas.php"); ?>
@@ -36,11 +57,21 @@
 	</section>
 	<!-- fin de contenido -->
 	
+
 </body>
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script type="text/javascript">
+	  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+
+  });
+   
+</script>
 
 </html>
