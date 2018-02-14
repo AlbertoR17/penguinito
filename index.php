@@ -20,8 +20,7 @@
 					&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Penguinito
 					<ul class="right hide-on-med-and-down">
 						<li><a href="#"><i class="material-icons left">search</i>Buscar</a></li>
-					</ul>
-					<ul class="right hide-on-med-and-down">
+				
 						<li><a href="#"><i class="material-icons left">add</i>Registrarse</a></li>
 					</ul>
 				</div>
