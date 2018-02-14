@@ -14,9 +14,9 @@
 <body>
  <nav>
     <div class="nav-wrapper">
-      <center><a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a></center>
+      <a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php"><i class="material-icons left">keyboard_return</i>Atrás</a></li>
+        <li><a href="index.php"><i class="material-icons left">keyboard_return</i>Volver</a></li>
         
       </ul>
     </div>
