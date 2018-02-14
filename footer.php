@@ -1,8 +1,10 @@
-<footer class="page-footer">
-	<div class="footer-copyright">
-		<div class="container">
-			© 2014 Copyright Text
-			<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-		</div>
-	</div>
+<footer>
+<div class="footer">
+   <div class="pull-right">
+                
+    </div>
+    <div>
+      <strong>Copyright</strong> RNDevelopers &copy; 2018
+    </div>
+</div>
 </footer>
