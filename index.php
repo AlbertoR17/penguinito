@@ -38,7 +38,7 @@
 		</section>
 	</header>
 		
-<div id="modal1" class="modal" style="width: 35%;border-radius: 7px; box-shadow: 0px 0px 25px #000; overflow-y: hidden; overflow-x: hidden;">
+<div id="modal1" class="modal" style="width: 35%;border-radius: 7px; box-shadow: 0px 0px 25px #000; ">
     <center><div >
 	 <?php include "modal.php" ?>
 	 </div></center> 
