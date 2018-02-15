@@ -43,6 +43,9 @@
 		</div>
 	</div>
 	<!-- fin de contenido -->
+	<!-- inicio de modal -->
+	
+	<!-- fin de modal -->
 
 </body>
 <!--Import jQuery before materialize.js-->

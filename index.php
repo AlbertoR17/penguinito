@@ -16,12 +16,21 @@
 		<section class="wrapper">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"></a>
-					&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Penguinito
-					<ul class="right hide-on-med-and-down">
-						<li><a href="#"><i class="material-icons left">search</i>Buscar</a></li>
-				
-						<li><a class="waves-effect waves-light modal-trigger" href="#modal1"><i class="material-icons left">add</i>Registrarse</a></li>
+					<a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a>
+					<ul class="right hide-on-med-and-down" style="">
+						<li >
+						  <nav >
+						    <div class="nav-wrapper">
+						        <div class="input-field" >
+						          <input id="search" type="search" required >
+						          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						          <i class="material-icons">close</i>
+						        </div>
+						      </form>
+						    </div>
+						  </nav>
+						</li>
+						<li><a class="waves-effect waves-light modal-trigger" href="#modal1" ><i class="material-icons left">add</i>Registrarse</a></li>
 						
 					</ul>
 				</div>
@@ -29,10 +38,10 @@
 		</section>
 	</header>
 		
-<div id="modal1" class="modal">
-     <div>
+<div id="modal1" class="modal" style="width: 35%;border-radius: 7px; box-shadow: 0px 0px 25px #000; overflow-y: hidden; overflow-x: hidden;">
+    <center><div >
 	 <?php include "modal.php" ?>
-	 </div>
+	 </div></center> 
 </div>	
 	
 
