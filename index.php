@@ -16,12 +16,13 @@
 		<section class="wrapper">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a>
+					<a href="index.php" class="brand-logo"><img src="img/penguin.png" alt="" style="width: 60px;height: 60px"><span style="font-family: medium italic">Penguinito</span></a> 
 					<ul class="right hide-on-med-and-down" style="">
 						<li >
 						  <nav >
 						    <div class="nav-wrapper">
-						        <div class="input-field" >
+						        <form>
+						          <div class="input-field" >	
 						          <input id="search" type="search" required style="border: 0">
 						          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
 						          <i class="material-icons">close</i>
