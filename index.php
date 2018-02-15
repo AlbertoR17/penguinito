@@ -28,34 +28,14 @@
 			</nav>
 		</section>
 	</header>
-		<!-- Modal Structure -->
-		<div id="modal1" class="modal">
-			<div class="modal-content">
-				<h4>Registrarse</h4>
-				<form class="form-group" action="#" method="post">
-					<div class="form-control">
-					  <label>Nombre</label>
-					  <input class="form-control error"  type="text" name="name">
-					</div>
-					<div class="form-control">
-                      <label>Contraseña</label>
-					  <input class="form-control error"  type="password" name="pass">
-				    </div>
-					<div class="form-control">
-					  <label>Confirma Contraseña</label>
-					  <input class="form-control error"  type="password" name="pass2">
-					</div>
-					<div class="form-control">
-					  <label>Correo</label>
-					  <input type="email" name="correo" class="form-control error" >
-					</div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Aceptar</a>
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
-			</div>
-		</div>
+		
+<div id="modal1" class="modal">
+     <div>
+	 <?php include "modal.php" ?>
+	 </div>
+</div>	
+	
+
 	<!-- inico de contenido -->
 	<section class="contenido wrapper">
 		<?php include("notas.php"); ?>
@@ -78,6 +58,8 @@
     $('.modal').modal();
 
   });
+ 
+      
    
 </script>
 
