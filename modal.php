@@ -27,9 +27,9 @@
       
            <div class="input-field col s12">
             <input TYPE="submit" form="modaform" NAME=OK VALUE="REGISTRAR" class="btn btn-default" style="margin-right: 20px;">
-            <a href="index.php">
+           
               <input TYPE="button" onclick="window.close();" NAME="button" VALUE="Cerrar" class="modal-action modal-close waves-effect  btn btn-#d32f2f red darken-2 " style="margin-left: 20px;" > 
-            </a><br>
+            <br>
           </div>
         
     
